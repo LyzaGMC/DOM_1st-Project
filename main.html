@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+  <div id="cart">
+    <div class="item">
+      <span class="item-name">Product A</span>
+      <button class="quantity-btn minus">-</button>
+      <span class="quantity">0</span>
+      <button class="quantity-btn plus">+</button>
+      <button class="delete-btn">Delete</button>
+      <button class="like-btn"><i class="fas fa-heart"></i></button>
+      <span class="price">$10</span>
+    </div>
+    <div class="item">
+      <span class="item-name">Product B</span>
+      <button class="quantity-btn minus">-</button>
+      <span class="quantity">0</span>
+      <button class="quantity-btn plus">+</button>
+      <button class="delete-btn">Delete</button>
+      <button class="like-btn"><i class="fas fa-heart"></i></button>
+      <span class="price">$20</span>
+    </div>
+  </div>
+  <div id="total">
+    Total: <span id="total-price">$0</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
